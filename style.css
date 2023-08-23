@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Titillium+Web&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/bg.png);
+    background-position: center;
+    background-size: cover;
+ 
+}
+p{
+    font-size: 1rem;
+    color: #fff;
+    line-height: 3rem;
+}
+.btn{
+    padding: 12px 28px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+    color: black;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid red;
+    text-decoration: none;
+    transition: ease .5s;
+}
+.btn:hover{
+color: white;
+background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12%;
+}
+nav ul 
+{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition:ease .5s;
+}
+nav ul li a:hover {
+    color: black;
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    column-gap: 10px;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    width: 50%;
+}
+h1{
+    font-size: 6rem;
+    color: #fff;
+}
+.desc
+{
+    font-size: 1.6rem;
+}
+.cards{
+    max-width: 500px;
+    margin: auto;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+   
+   background-position: center;
+   background-size: cover;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    border: 1px solid red;
+    position: relative;
+    transition: ease .5s;
+    margin: 10px 15px;
+
+}
+.card:hover{
+    transform: translateY(-10px);
+    border-color: #fff;
+}
+.card .card-head{
+    background-color: rgba(0,0,0,0.7);
+    margin-bottom: 14px;
+    text-align: center;
+    border-radius: 6px;
+
+}
+.card-head h5{
+    color: white;
+}
+.card .card-head p {
+    font-size: 11px;
+    margin: 0 ;
+    padding: 0;
+
+}
+.card .card-bottom{
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+
+}
+.card.card-1
+{
+    background-image: url(images/pic-1.png);
+}
+.card.card-2
+{
+    background-image: url(images/pic-2.png);
+}
+.card.card-3
+{
+    background-image: url(images/pic-3.png);
+}
+.card.card-4
+{
+    background-image: url(images/pic-4.png);
+}

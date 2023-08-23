@@ -1,0 +1,36 @@
+
+
+@media only screen and (max-width: 1120px) {
+  
+.container{
+    font-size:15px
+}
+.btn
+{
+    font-size: 14px;
+    align-content: center;
+}
+.row{
+    height: 90%;
+    width: 100%;
+    display: contents;
+  
+}
+.col{
+    width: 100% !important;
+    margin: auto;
+    margin-top: 10%; 
+}
+h1{
+    font-size: 5rem;
+   
+  
+}
+.desc{
+    font-size: 15px;
+}
+.cards{
+display: none;
+}
+
+}
